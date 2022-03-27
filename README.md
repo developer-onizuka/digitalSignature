@@ -26,7 +26,8 @@ In other words, decrypting the "message" into "Decored-data" with a private key 
 ![DegitalSignature](http://www.herongyang.com/PKI/Digital-Signature-Scheme.jpg)
 
 # 3. HTTPS
-[How does HTTPS (SSL) encryption works?](https://sid-500.com/2017/11/01/how-does-https-ssl-encryption-works/)<br>
+[How does HTTPS (SSL) encryption works?](https://sid-500.com/2017/11/01/how-does-https-ssl-encryption-works/)
+
 ![HTTPS](https://patrick6649.files.wordpress.com/2017/10/unbenannt68.png)
 
 1. The Client tries to establish a connection to the server. (Hello!) The server responds, that he accepts only secure communication.
