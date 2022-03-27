@@ -29,3 +29,7 @@ In other words, decrypting the "message" into "Decored-data" with a private key 
 
 # 4. SSH
 [SSHサーバへの接続](https://rat.cis.k.hosei.ac.jp/article/rat/linuxliteracy/2005/ssh.html)
+
+# 4-1. RSA Certification
+
+![RSA](https://www.thesslstore.com/blog/wp-content/uploads/2021/04/how-ssh-authentication-works.png)
