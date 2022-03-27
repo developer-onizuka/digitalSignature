@@ -13,10 +13,10 @@ Yes, it is acutally used as Digital Signature.
 # 2. Differece between Encryption and Digital Signature
 [電子署名=『秘密鍵で暗号化』」という良くある誤解の話](https://qiita.com/angel_p_57/items/d7ffb9ec13b4dde3357d)
 
-1) Encryption
+1) Encryption<br>
 PublicKey_Enc(message)=Encryed-Data,  PrivateKey_Dec(Encryed-Data)=message
 
-2) Digital Signature
+2) Digital Signature<br>
 PrivateKey_Dec(message)=Decored-data,  PublicKey_Enc(Decored-data)=message
 
 In other words, decrypting the "message" into "Decored-data" with a private key and encrypting it with a public key and returning it into "message", if it is possible, "Decored-data" is a data that only the owner of the private key can create. <br>
