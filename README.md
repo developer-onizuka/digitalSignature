@@ -10,16 +10,16 @@ As only Alice has access to her Private Key, it is possible that only Alice can 
 [電子署名=『秘密鍵で暗号化』」という良くある誤解の話](https://qiita.com/angel_p_57/items/d7ffb9ec13b4dde3357d)
 
 # Encryption
-- PublicKey_Enc(message) = Encryed-Data<br>
-- PrivateKey_Dec(Encryed-Data) = message
+- Sender:   PubKey_Enc(message)      = Encryed-Data<br>
+- Receiver: PriKey_Dec(Encryed-Data) = message
 
 PublicKey is for Encryption while PrivateKey is for Decryption.
 But, what do you think if it is available that data is decrypted by PrivateKey before it was encrypted by PublicKey? <br>
 Yes, it is acutally used as Digital Signature.
 
 # Digital Signature
-- PrivateKey_Dec(message's digest) = Decored-data<br>
-- PublicKey_Enc(Decored-data) = message's digest
+- Sender:   PriKey_Dec(message's digest) = Decored-data<br>
+- Receiver: PubKey_Enc(Decored-data)     = message's digest
 
 In other words, decrypting the "message" into "Decored-data" with a private key and encrypting it with a public key and returning it into "message", if it is possible, "Decored-data" is a data that only the owner of the private key can create. <br>
 
