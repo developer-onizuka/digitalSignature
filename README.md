@@ -21,7 +21,7 @@ PrivateKey_Dec(message)=Decored-data,  PublicKey_Enc(Decored-data)=message
 
 In other words, decrypting the "message" into "Decored-data" with a private key and encrypting it with a public key and returning it into "message", if it is possible, "Decored-data" is a data that only the owner of the private key can create. <br>
 
-[DegitalSignature](http://www.herongyang.com/PKI/Digital-Signature-Scheme.jpg)
+![DegitalSignature](http://www.herongyang.com/PKI/Digital-Signature-Scheme.jpg)
 
 # 3. HTTPS
 
