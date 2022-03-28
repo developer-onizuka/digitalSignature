@@ -43,6 +43,7 @@ In other words, decrypting the "message" into "Decored-data" with a private key 
 
 [Isolated multiple trust domain mTLS in Envoy and Istio](https://speakerdeck.com/mathetake/isolated-multiple-trust-domain-mtls-in-envoy-and-istio)
 
+[How One Way and Two Way SSL Work| Mutual SSL Explained](https://www.youtube.com/watch?v=ohn89zOcf4M&list=LL&index=1)
 
 
 # 4. SSH
