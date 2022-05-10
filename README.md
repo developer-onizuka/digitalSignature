@@ -39,6 +39,12 @@ In other words, decrypting the "message" into "Decored-data" with a private key 
 5. The transfer of data begins.
 6. To avoid that the attacker can guess the session key (243) it is regenerated from time to time.
 
+Why using session keys (AES: Advanced Encryption Standard) in additon to RSA
+---
+It is fast to encrypt files and data. But so many session keys will be created for each sesstion. There is a risk that the sent key will be stolen by a third party. It is known as "key transmission problem".
+
+> https://cybersecurity-jp.com/column/53774
+
 # 3-1. HTTPS(mTLS)
 
 [Isolated multiple trust domain mTLS in Envoy and Istio](https://speakerdeck.com/mathetake/isolated-multiple-trust-domain-mtls-in-envoy-and-istio)
