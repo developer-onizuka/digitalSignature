@@ -41,7 +41,7 @@ In other words, decrypting the "message" into "Decored-data" with a private key 
 
 Why using session keys (AES: Advanced Encryption Standard) in additon to RSA
 ---
-It is fast to encrypt files and data. But so many session keys will be created for each sesstion. There is a risk that the sent key will be stolen by a third party. It is known as "key transmission problem".
+It is fast to encrypt files and data. But so many session keys will be created for each sesstion. There is a risk that the sent key will be stolen by a third party. It is known as "key transmission problem". To solve it and utilize the advantage of AES, the session key is encrypted with the public key and sent to the user. 
 
 > https://cybersecurity-jp.com/column/53774
 
